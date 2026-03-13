@@ -1632,7 +1632,7 @@ function displayPopup($template) {
     }
   }
   if ( $Plugin && ! isset($installedVersion) ) {
-    $card .= "<tr><td calss='popupTableLeft'>".tr("Current Version")."</td><td class='popupTableRight'>$pluginVersion</td></tr>";
+    $card .= "<tr><td class='popupTableLeft'>".tr("Current Version")."</td><td class='popupTableRight'>$pluginVersion</td></tr>";
   }
 
   if ( $Plugin || ! ($Compatible??null)) {
